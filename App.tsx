@@ -1,17 +1,16 @@
-
 import React, { useState, useEffect } from 'react';
 import { HashRouter } from 'react-router-dom';
-import { PowerStatement } from './components/PowerStatement';
-import { WhoWeAre } from './components/WhoWeAre';
-import { OurValues } from './components/OurValues';
-import { WhatWeSupply } from './components/WhatWeSupply';
-import { GlobalOperations } from './components/GlobalOperations';
-import { ValuableClients } from './components/ValuableClients';
-import { NewsCenter } from './components/NewsCenter';
-import { WhyADGP } from './components/WhyADGP';
-import { CallToAction } from './components/CallToAction';
-import { Navigation } from './components/Navigation';
-import { WhatsAppFAB } from './components/WhatsAppFAB';
+import { PowerStatement } from './components/PowerStatement.tsx';
+import { WhoWeAre } from './components/WhoWeAre.tsx';
+import { OurValues } from './components/OurValues.tsx';
+import { WhatWeSupply } from './components/WhatWeSupply.tsx';
+import { GlobalOperations } from './components/GlobalOperations.tsx';
+import { ValuableClients } from './components/ValuableClients.tsx';
+import { NewsCenter } from './components/NewsCenter.tsx';
+import { WhyADGP } from './components/WhyADGP.tsx';
+import { CallToAction } from './components/CallToAction.tsx';
+import { Navigation } from './components/Navigation.tsx';
+import { WhatsAppFAB } from './components/WhatsAppFAB.tsx';
 
 const AppContent: React.FC = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
